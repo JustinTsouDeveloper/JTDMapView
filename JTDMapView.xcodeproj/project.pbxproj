@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E3537CE226574F700B7D981 /* JTDMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3537CC226574F700B7D981 /* JTDMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E35383622659B8F00B7D981 /* JTDCoffeeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E35382522659B8F00B7D981 /* JTDCoffeeMapView.swift */; };
+		2E35383F22659B8F00B7D981 /* JTDCoffeeMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E35383522659B8F00B7D981 /* JTDCoffeeMapView.xib */; };
+		2E35384722659DA800B7D981 /* CafeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E35384622659DA800B7D981 /* CafeMapView.swift */; };
+		2E5566682265ED1800213FBA /* CallOutCoffeeContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5566582265ED1700213FBA /* CallOutCoffeeContainerView.swift */; };
+		2E5566692265ED1800213FBA /* CallOutCoffeeContainerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E5566592265ED1800213FBA /* CallOutCoffeeContainerView.xib */; };
+		2E55666A2265ED1800213FBA /* CallOutCoffeeAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E55665B2265ED1800213FBA /* CallOutCoffeeAnnotation.swift */; };
+		2E55666B2265ED1800213FBA /* CallOutCoffeeAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E55665D2265ED1800213FBA /* CallOutCoffeeAnnotationView.swift */; };
+		2E55666C2265ED1800213FBA /* CoffeeAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E55665F2265ED1800213FBA /* CoffeeAnnotation.swift */; };
+		2E55666D2265ED1800213FBA /* CallOutCoffeeDistanceContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5566612265ED1800213FBA /* CallOutCoffeeDistanceContainerView.swift */; };
+		2E55666E2265ED1800213FBA /* CallOutCoffeeDistanceContainerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E5566622265ED1800213FBA /* CallOutCoffeeDistanceContainerView.xib */; };
+		2E55666F2265ED1800213FBA /* CalculateViewFrameHeighUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5566642265ED1800213FBA /* CalculateViewFrameHeighUtility.swift */; };
+		2E5566702265ED1800213FBA /* CalculateDistanceUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5566652265ED1800213FBA /* CalculateDistanceUtility.swift */; };
+		2E5566712265ED1800213FBA /* CoffeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5566672265ED1800213FBA /* CoffeeModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E3537C9226574F700B7D981 /* JTDMapView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JTDMapView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E3537CC226574F700B7D981 /* JTDMapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTDMapView.h; sourceTree = "<group>"; };
+		2E3537CD226574F700B7D981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E35382522659B8F00B7D981 /* JTDCoffeeMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JTDCoffeeMapView.swift; path = JTDMapView/JTDCoffeeMapView.swift; sourceTree = "<group>"; };
+		2E35383522659B8F00B7D981 /* JTDCoffeeMapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JTDCoffeeMapView.xib; path = JTDMapView/JTDCoffeeMapView.xib; sourceTree = "<group>"; };
+		2E35384622659DA800B7D981 /* CafeMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CafeMapView.swift; path = JTDMapView/CafeMapView.swift; sourceTree = "<group>"; };
+		2E5566582265ED1700213FBA /* CallOutCoffeeContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallOutCoffeeContainerView.swift; sourceTree = "<group>"; };
+		2E5566592265ED1800213FBA /* CallOutCoffeeContainerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CallOutCoffeeContainerView.xib; sourceTree = "<group>"; };
+		2E55665B2265ED1800213FBA /* CallOutCoffeeAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallOutCoffeeAnnotation.swift; sourceTree = "<group>"; };
+		2E55665D2265ED1800213FBA /* CallOutCoffeeAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallOutCoffeeAnnotationView.swift; sourceTree = "<group>"; };
+		2E55665F2265ED1800213FBA /* CoffeeAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeeAnnotation.swift; sourceTree = "<group>"; };
+		2E5566612265ED1800213FBA /* CallOutCoffeeDistanceContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallOutCoffeeDistanceContainerView.swift; sourceTree = "<group>"; };
+		2E5566622265ED1800213FBA /* CallOutCoffeeDistanceContainerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CallOutCoffeeDistanceContainerView.xib; sourceTree = "<group>"; };
+		2E5566642265ED1800213FBA /* CalculateViewFrameHeighUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateViewFrameHeighUtility.swift; sourceTree = "<group>"; };
+		2E5566652265ED1800213FBA /* CalculateDistanceUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateDistanceUtility.swift; sourceTree = "<group>"; };
+		2E5566672265ED1800213FBA /* CoffeeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeeModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E3537C6226574F700B7D981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E3537BF226574F700B7D981 = {
+			isa = PBXGroup;
+			children = (
+				2E5566562265ED1700213FBA /* Annotation */,
+				2E5566662265ED1800213FBA /* Model */,
+				2E5566632265ED1800213FBA /* Utility */,
+				2E35384622659DA800B7D981 /* CafeMapView.swift */,
+				2E35382522659B8F00B7D981 /* JTDCoffeeMapView.swift */,
+				2E35383522659B8F00B7D981 /* JTDCoffeeMapView.xib */,
+				2E3537CB226574F700B7D981 /* JTDMapView */,
+				2E3537CA226574F700B7D981 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E3537CA226574F700B7D981 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E3537C9226574F700B7D981 /* JTDMapView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E3537CB226574F700B7D981 /* JTDMapView */ = {
+			isa = PBXGroup;
+			children = (
+				2E3537CC226574F700B7D981 /* JTDMapView.h */,
+				2E3537CD226574F700B7D981 /* Info.plist */,
+			);
+			path = JTDMapView;
+			sourceTree = "<group>";
+		};
+		2E5566562265ED1700213FBA /* Annotation */ = {
+			isa = PBXGroup;
+			children = (
+				2E5566572265ED1700213FBA /* CallOutCoffeeContainerView */,
+				2E55665A2265ED1800213FBA /* CallOutCoffeeAnnotation */,
+				2E55665C2265ED1800213FBA /* CallOutCoffeeAnnotationView */,
+				2E55665E2265ED1800213FBA /* CoffeeAnnotation */,
+				2E5566602265ED1800213FBA /* CallOutCoffeeDistanceContainerView */,
+			);
+			name = Annotation;
+			path = JTDMapView/Annotation;
+			sourceTree = "<group>";
+		};
+		2E5566572265ED1700213FBA /* CallOutCoffeeContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				2E5566582265ED1700213FBA /* CallOutCoffeeContainerView.swift */,
+				2E5566592265ED1800213FBA /* CallOutCoffeeContainerView.xib */,
+			);
+			path = CallOutCoffeeContainerView;
+			sourceTree = "<group>";
+		};
+		2E55665A2265ED1800213FBA /* CallOutCoffeeAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				2E55665B2265ED1800213FBA /* CallOutCoffeeAnnotation.swift */,
+			);
+			path = CallOutCoffeeAnnotation;
+			sourceTree = "<group>";
+		};
+		2E55665C2265ED1800213FBA /* CallOutCoffeeAnnotationView */ = {
+			isa = PBXGroup;
+			children = (
+				2E55665D2265ED1800213FBA /* CallOutCoffeeAnnotationView.swift */,
+			);
+			path = CallOutCoffeeAnnotationView;
+			sourceTree = "<group>";
+		};
+		2E55665E2265ED1800213FBA /* CoffeeAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				2E55665F2265ED1800213FBA /* CoffeeAnnotation.swift */,
+			);
+			path = CoffeeAnnotation;
+			sourceTree = "<group>";
+		};
+		2E5566602265ED1800213FBA /* CallOutCoffeeDistanceContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				2E5566612265ED1800213FBA /* CallOutCoffeeDistanceContainerView.swift */,
+				2E5566622265ED1800213FBA /* CallOutCoffeeDistanceContainerView.xib */,
+			);
+			path = CallOutCoffeeDistanceContainerView;
+			sourceTree = "<group>";
+		};
+		2E5566632265ED1800213FBA /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				2E5566642265ED1800213FBA /* CalculateViewFrameHeighUtility.swift */,
+				2E5566652265ED1800213FBA /* CalculateDistanceUtility.swift */,
+			);
+			name = Utility;
+			path = JTDMapView/Utility;
+			sourceTree = "<group>";
+		};
+		2E5566662265ED1800213FBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E5566672265ED1800213FBA /* CoffeeModel.swift */,
+			);
+			name = Model;
+			path = JTDMapView/Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2E3537C4226574F700B7D981 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3537CE226574F700B7D981 /* JTDMapView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2E3537C8226574F700B7D981 /* JTDMapView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E3537D1226574F700B7D981 /* Build configuration list for PBXNativeTarget "JTDMapView" */;
+			buildPhases = (
+				2E3537C4226574F700B7D981 /* Headers */,
+				2E3537C5226574F700B7D981 /* Sources */,
+				2E3537C6226574F700B7D981 /* Frameworks */,
+				2E3537C7226574F700B7D981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JTDMapView;
+			productName = JTDMapView;
+			productReference = 2E3537C9226574F700B7D981 /* JTDMapView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E3537C0226574F700B7D981 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = iOSDeveloper;
+				TargetAttributes = {
+					2E3537C8226574F700B7D981 = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 2E3537C3226574F700B7D981 /* Build configuration list for PBXProject "JTDMapView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2E3537BF226574F700B7D981;
+			productRefGroup = 2E3537CA226574F700B7D981 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E3537C8226574F700B7D981 /* JTDMapView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E3537C7226574F700B7D981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E35383F22659B8F00B7D981 /* JTDCoffeeMapView.xib in Resources */,
+				2E55666E2265ED1800213FBA /* CallOutCoffeeDistanceContainerView.xib in Resources */,
+				2E5566692265ED1800213FBA /* CallOutCoffeeContainerView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E3537C5226574F700B7D981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E55666B2265ED1800213FBA /* CallOutCoffeeAnnotationView.swift in Sources */,
+				2E5566712265ED1800213FBA /* CoffeeModel.swift in Sources */,
+				2E35384722659DA800B7D981 /* CafeMapView.swift in Sources */,
+				2E55666C2265ED1800213FBA /* CoffeeAnnotation.swift in Sources */,
+				2E5566682265ED1800213FBA /* CallOutCoffeeContainerView.swift in Sources */,
+				2E5566702265ED1800213FBA /* CalculateDistanceUtility.swift in Sources */,
+				2E55666F2265ED1800213FBA /* CalculateViewFrameHeighUtility.swift in Sources */,
+				2E55666D2265ED1800213FBA /* CallOutCoffeeDistanceContainerView.swift in Sources */,
+				2E35383622659B8F00B7D981 /* JTDCoffeeMapView.swift in Sources */,
+				2E55666A2265ED1800213FBA /* CallOutCoffeeAnnotation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2E3537CF226574F700B7D981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E3537D0226574F700B7D981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E3537D2226574F700B7D981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JTDMapView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSDeveloper.JTDMapView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E3537D3226574F700B7D981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JTDMapView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSDeveloper.JTDMapView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E3537C3226574F700B7D981 /* Build configuration list for PBXProject "JTDMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3537CF226574F700B7D981 /* Debug */,
+				2E3537D0226574F700B7D981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E3537D1226574F700B7D981 /* Build configuration list for PBXNativeTarget "JTDMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3537D2226574F700B7D981 /* Debug */,
+				2E3537D3226574F700B7D981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E3537C0226574F700B7D981 /* Project object */;
+}
