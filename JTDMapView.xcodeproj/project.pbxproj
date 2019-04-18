@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2E3537CE226574F700B7D981 /* JTDMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3537CC226574F700B7D981 /* JTDMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E35383622659B8F00B7D981 /* JTDCoffeeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E35382522659B8F00B7D981 /* JTDCoffeeMapView.swift */; };
-		2E35383F22659B8F00B7D981 /* JTDCoffeeMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E35383522659B8F00B7D981 /* JTDCoffeeMapView.xib */; };
+		2E35383622659B8F00B7D981 /* JTDMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E35382522659B8F00B7D981 /* JTDMapView.swift */; };
+		2E35383F22659B8F00B7D981 /* JTDMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E35383522659B8F00B7D981 /* JTDMapView.xib */; };
 		2E35384722659DA800B7D981 /* CafeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E35384622659DA800B7D981 /* CafeMapView.swift */; };
 		2E5566682265ED1800213FBA /* CallOutCoffeeContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5566582265ED1700213FBA /* CallOutCoffeeContainerView.swift */; };
 		2E5566692265ED1800213FBA /* CallOutCoffeeContainerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E5566592265ED1800213FBA /* CallOutCoffeeContainerView.xib */; };
@@ -27,8 +27,8 @@
 		2E3537C9226574F700B7D981 /* JTDMapView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JTDMapView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E3537CC226574F700B7D981 /* JTDMapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTDMapView.h; sourceTree = "<group>"; };
 		2E3537CD226574F700B7D981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E35382522659B8F00B7D981 /* JTDCoffeeMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JTDCoffeeMapView.swift; path = JTDMapView/JTDCoffeeMapView.swift; sourceTree = "<group>"; };
-		2E35383522659B8F00B7D981 /* JTDCoffeeMapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JTDCoffeeMapView.xib; path = JTDMapView/JTDCoffeeMapView.xib; sourceTree = "<group>"; };
+		2E35382522659B8F00B7D981 /* JTDMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JTDMapView.swift; path = JTDMapView/JTDMapView.swift; sourceTree = "<group>"; };
+		2E35383522659B8F00B7D981 /* JTDMapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JTDMapView.xib; path = JTDMapView/JTDMapView.xib; sourceTree = "<group>"; };
 		2E35384622659DA800B7D981 /* CafeMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CafeMapView.swift; path = JTDMapView/CafeMapView.swift; sourceTree = "<group>"; };
 		2E5566582265ED1700213FBA /* CallOutCoffeeContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallOutCoffeeContainerView.swift; sourceTree = "<group>"; };
 		2E5566592265ED1800213FBA /* CallOutCoffeeContainerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CallOutCoffeeContainerView.xib; sourceTree = "<group>"; };
@@ -60,8 +60,8 @@
 				2E5566662265ED1800213FBA /* Model */,
 				2E5566632265ED1800213FBA /* Utility */,
 				2E35384622659DA800B7D981 /* CafeMapView.swift */,
-				2E35382522659B8F00B7D981 /* JTDCoffeeMapView.swift */,
-				2E35383522659B8F00B7D981 /* JTDCoffeeMapView.xib */,
+				2E35382522659B8F00B7D981 /* JTDMapView.swift */,
+				2E35383522659B8F00B7D981 /* JTDMapView.xib */,
 				2E3537CB226574F700B7D981 /* JTDMapView */,
 				2E3537CA226574F700B7D981 /* Products */,
 			);
@@ -227,7 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E35383F22659B8F00B7D981 /* JTDCoffeeMapView.xib in Resources */,
+				2E35383F22659B8F00B7D981 /* JTDMapView.xib in Resources */,
 				2E55666E2265ED1800213FBA /* CallOutCoffeeDistanceContainerView.xib in Resources */,
 				2E5566692265ED1800213FBA /* CallOutCoffeeContainerView.xib in Resources */,
 			);
@@ -248,7 +248,7 @@
 				2E5566702265ED1800213FBA /* CalculateDistanceUtility.swift in Sources */,
 				2E55666F2265ED1800213FBA /* CalculateViewFrameHeighUtility.swift in Sources */,
 				2E55666D2265ED1800213FBA /* CallOutCoffeeDistanceContainerView.swift in Sources */,
-				2E35383622659B8F00B7D981 /* JTDCoffeeMapView.swift in Sources */,
+				2E35383622659B8F00B7D981 /* JTDMapView.swift in Sources */,
 				2E55666A2265ED1800213FBA /* CallOutCoffeeAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

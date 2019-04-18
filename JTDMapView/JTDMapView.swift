@@ -21,15 +21,15 @@ public enum CategoryType: String {
     }
 }
 
-public protocol JTDCoffeeMapViewDelegate: class {
+public protocol JTDMapViewDelegate: class {
     func tapNavigationButton(coffeeModel: CoffeeModel)
 }
 
-public class JTDCoffeeMapView: UIView {
+public class JTDMapView: UIView {
     
     @IBOutlet var contentView: UIView!
     private var cafeMapView: CafeMapView!
-    public weak var delegate: JTDCoffeeMapViewDelegate?
+    public weak var delegate: JTDMapViewDelegate?
     
     public override init(frame: CGRect) {
         super.init(frame: frame)
@@ -76,7 +76,7 @@ public class JTDCoffeeMapView: UIView {
     }
 }
 
-extension JTDCoffeeMapView: CafeMapViewDelegate {
+extension JTDMapView: CafeMapViewDelegate {
     func tapNavigationButton(coffeeModel: CoffeeModel) {
         self.delegate?.tapNavigationButton(coffeeModel: coffeeModel)
     }
