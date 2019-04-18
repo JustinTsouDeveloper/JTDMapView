@@ -48,7 +48,7 @@ public class JTDMapView: UIView {
     private func setupMapView() {
         
         let bundle = Bundle(for: type(of: self))
-        let nib = UINib(nibName: "JTDCoffeeMapView", bundle: bundle)
+        let nib = UINib(nibName: "JTDMapView", bundle: bundle)
         contentView = nib.instantiate(withOwner: self, options: nil).first as? UIView
         contentView.frame = bounds
         
