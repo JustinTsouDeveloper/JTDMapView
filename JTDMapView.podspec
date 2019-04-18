@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
           #1.
           s.name               = "JTDMapView"
           #2.
-          s.version            = "1.0.2"
+          s.version            = "1.0.3"
           #3.  
           s.summary         = "Sort description of 'JTDMapView' framework"
           #4.
