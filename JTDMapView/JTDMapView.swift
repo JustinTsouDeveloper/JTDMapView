@@ -16,7 +16,7 @@ public enum CategoryType: String {
     case Tasty = "美味"
     case Seat = "座位"
     
-    static func getCategoryAllTypeRawValue() -> Array<String> {
+    public static func getCategoryAllTypeRawValue() -> Array<String> {
         return [Distance.rawValue, Wifi.rawValue, Quiet.rawValue, Tasty.rawValue, Seat.rawValue]
     }
 }
