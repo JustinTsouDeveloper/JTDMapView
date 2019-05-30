@@ -22,7 +22,7 @@ class CafeMapView: MKMapView {
     private var category: CategoryType?
     private let space:CGFloat = 5                                        //大頭針與 calloutView 之間的間距
     private let annotationImageHeigh:CGFloat = 64                        //大頭針圖片高度
-    private let multiplyNumber:Double = 1.2
+    private let multiplyNumber:Double = 4
     //private let visibleAreaDistance = CLLocationDistance(exactly: 300)   //地圖可視範圍
     
     override init(frame: CGRect) {
