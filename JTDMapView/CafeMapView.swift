@@ -14,7 +14,7 @@ protocol CafeMapViewDelegate: class {
 }
 
 class CafeMapView: MKMapView {
-
+    
     weak var delegates: CafeMapViewDelegate?
     private var coffeeModel: CoffeeModel?
     private var coffeeAnnotation: CoffeeAnnotation?
@@ -22,8 +22,9 @@ class CafeMapView: MKMapView {
     private var category: CategoryType?
     private let space:CGFloat = 5                                        //大頭針與 calloutView 之間的間距
     private let annotationImageHeigh:CGFloat = 64                        //大頭針圖片高度
-    private let visibleAreaDistance = CLLocationDistance(exactly: 300)   //地圖可視範圍
-
+    private let multiplyNumber:Double = 1.2
+    //private let visibleAreaDistance = CLLocationDistance(exactly: 300)   //地圖可視範圍
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.setupMapView()
@@ -107,7 +108,14 @@ class CafeMapView: MKMapView {
     }
     
     private func setCoffeeShopVisibleArea() {
-        let region = MKCoordinateRegion(center: self.coffeeAnnotation!.coordinate, latitudinalMeters: self.visibleAreaDistance!, longitudinalMeters: self.visibleAreaDistance!)
+        let coffeeLocation = CLLocation(latitude: CLLocationDegrees(coffeeModel!.latitude!)!, longitude: CLLocationDegrees(coffeeModel!.longitude!)!)
+        let userLocation = CLLocation(latitude: CLLocationDegrees(self.userLocation.coordinate.latitude), longitude: CLLocationDegrees(self.userLocation.coordinate.longitude))
+        let distance = userLocation.distance(from: coffeeLocation)
+        
+        let averageDistance = CLLocationCoordinate2DMake(CLLocationDegrees((userLocation.coordinate.latitude + coffeeLocation.coordinate.latitude)/2), CLLocationDegrees((userLocation.coordinate.longitude + coffeeLocation.coordinate.longitude))/2)
+        
+        let region = MKCoordinateRegion(center: averageDistance, latitudinalMeters: distance * self.multiplyNumber, longitudinalMeters: distance * self.multiplyNumber)
+        
         self.setRegion(self.regionThatFits(region), animated: true)
     }
     
