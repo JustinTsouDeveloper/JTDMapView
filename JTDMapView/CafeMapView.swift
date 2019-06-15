@@ -165,13 +165,13 @@ class CafeMapView: MKMapView {
             }
             subtitle = "Wifi:\(String(tasty))"
             break
-        case .Seat:
-            guard let seat = coffeeModel.seat,
-                seat != 0 else {
-                    return "尚未評分"
-            }
-            subtitle = "Wifi:\(String(seat))"
-            break
+//        case .Seat:
+//            guard let seat = coffeeModel.seat,
+//                seat != 0 else {
+//                    return "尚未評分"
+//            }
+//            subtitle = "Wifi:\(String(seat))"
+//            break
         }
         return subtitle
     }

@@ -71,7 +71,7 @@ class CallOutCoffeeAnnotationView: MKAnnotationView {
             containerView.animationForImageView(imageView: containerView.categoryIconImageView, imageName: categoryImageName, delay: 0.7)
             
             break
-        case .Wifi,.Quiet,.Tasty,.Seat:
+        case .Wifi,.Quiet,.Tasty:
             let bundle = Bundle(for: type(of: self))
             let nib = UINib(nibName: "CallOutCoffeeContainerView", bundle: bundle)
             let view = nib.instantiate(withOwner: self, options: nil).first as? CallOutCoffeeContainerView
@@ -117,9 +117,9 @@ class CallOutCoffeeAnnotationView: MKAnnotationView {
         case .Tasty:
             imageName = "Tasty"
             break
-        case .Seat:
-            imageName = "Seat"
-            break
+//        case .Seat:
+//            imageName = "Seat"
+//            break
         }
         return imageName
     }
@@ -138,9 +138,9 @@ class CallOutCoffeeAnnotationView: MKAnnotationView {
         case .Tasty:
             rating = coffeeModel.tasty ?? 0
             break
-        case .Seat:
-            rating = coffeeModel.seat ?? 0
-            break
+//        case .Seat:
+//            rating = coffeeModel.seat ?? 0
+//            break
         }
         return rating
     }
